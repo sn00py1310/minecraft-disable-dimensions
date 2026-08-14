@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "disabledimensions",
+	"version": "${version}",
+	"name": "disabledimensions",
+	"description": "This is a mod to disable specific dimensions.",
+	"authors": [
+		"sn00py1310"
+	],
+	"contact": {
+		"homepage": "https://github.com/sn00py1310/minecraft-disable-dimensions",
+		"sources": "https://github.com/sn00py1310/minecraft-disable-dimensions"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/disabledimensions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.snoopys.mods.disabledimensions.DisableDimensions"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

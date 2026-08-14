@@ -1,4 +1,4 @@
-# disableEnd
+# disable dimensions
 
 ## Setup
 
